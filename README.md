@@ -57,8 +57,10 @@ PIL                     圖片處理         顯示生成圖片
 在實際操作中：
 
 1.點選「AI 聊天」可即時與模型互動。
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/AI%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA.jpg)
 
 2.點選「AI 繪畫」可根據輸入內容快速生成圖片。
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/AI%E7%B9%AA%E5%9C%96.jpg)
 
 3.整體操作流程順暢，功能之間切換反應良好。
 
@@ -75,6 +77,7 @@ PIL                     圖片處理         顯示生成圖片
 測試結論：
 
 正確安裝後，整體執行穩定，streamlit run test.py 可順利開啟網頁測試畫面。
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/python.jpg)
 
 ### 2. API Key 的問題
 
@@ -91,6 +94,7 @@ PIL                     圖片處理         顯示生成圖片
 
 選擇使用 Pollinations API 作為替代方案，因為它不需金鑰即可測試，操作上更簡單。
 雖然功能比不上付費平台，但足以完成 AI 繪圖測試。
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/API.jpg)
 
 ### 3. 聊天程式執行困難
 在完成繪圖程式設定後，發現 AI 聊天功能 原本需要使用 API Key 才能連線運作，導致無法順利執行。
@@ -105,6 +109,7 @@ PIL                     圖片處理         顯示生成圖片
 
 改用 Ollama 的本地程式語法 取代雲端聊天 API，直接透過系統命令執行 Llama3 模型生成回答，成功解決聊天功能無法啟動的問題。
 最終測試結果正常，可離線對話。
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/Ollama.jpg)
 
 ## 五、測驗結論
 
