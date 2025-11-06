@@ -11,17 +11,13 @@
 - AI 繪圖（Pollinations API）
 
 ### 使用模組與功能：
-模組名稱      	        功能說明               	備註
+模組名稱                 功能說明       備註
+streamlit               建立互動式網頁   即時顯示結果
+streamlit_option_menu   製作側邊選單     改善頁面導覽
+subprocess              呼叫外部程式     執行 Ollama 模型
+requests                傳送網路請求     取得繪圖結果
+PIL                     圖片處理         顯示生成圖片
 
-streamlit           	建立互動式網頁	      簡單、反應即時
-
-streamlit_option_menu	製作側邊導覽選單	    改善操作體驗
-
-subprocess	          呼叫外部 AI 模型	    執行 Ollama
-
-requests	            發送網路請求	        連線 Pollinations API
-
-PIL	                  處理與顯示圖片	      顯示 AI 生成結果
 
 ## 二、測驗內容與操作結果
 ### (一)簡介頁面
@@ -49,8 +45,6 @@ PIL	                  處理與顯示圖片	      顯示 AI 生成結果
 
 1.由於 Ollama 屬於本地 AI 模型，它的運算完全在電腦端完成，不會外傳資料，能確保隱私與安全。
 不過它需要安裝在正確的路徑下，否則系統會出現「找不到執行檔」的錯誤。
-
-測試觀察：
 
 2.Pollinations 是開放的免費 API，輸入的 prompt 會直接轉換成圖像生成請求。
 圖片透過 BytesIO 物件讀入後，以 PIL 顯示在 Streamlit 頁面上。
