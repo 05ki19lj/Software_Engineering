@@ -11,12 +11,7 @@
 - AI 繪圖（Pollinations API）
 
 ### 使用模組與功能：
-模組名稱                 功能說明       備註
-streamlit               建立互動式網頁   即時顯示結果
-streamlit_option_menu   製作側邊選單     改善頁面導覽
-subprocess              呼叫外部程式     執行 Ollama 模型
-requests                傳送網路請求     取得繪圖結果
-PIL                     圖片處理         顯示生成圖片
+![image](https://github.com/05ki19lj/Software_Engineering/blob/main/%E8%A1%A8%E6%A0%BC.png)
 
 
 ## 二、測驗內容與操作結果
