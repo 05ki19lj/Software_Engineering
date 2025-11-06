@@ -1,5 +1,5 @@
 # Software_Engineering 期中報告 鄭宇彤 黃靖雅
-##主題：Python+ChatGPT制作一个AI实用百宝箱
+## 主題：Python+ChatGPT制作一个AI实用百宝箱
 
 ## 一、簡介
 
