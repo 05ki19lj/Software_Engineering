@@ -12,10 +12,15 @@
 
 ### 使用模組與功能：
 模組名稱      	        功能說明               	備註
+
 streamlit           	建立互動式網頁	      簡單、反應即時
+
 streamlit_option_menu	製作側邊導覽選單	    改善操作體驗
+
 subprocess	          呼叫外部 AI 模型	    執行 Ollama
+
 requests	            發送網路請求	        連線 Pollinations API
+
 PIL	                  處理與顯示圖片	      顯示 AI 生成結果
 
 ## 二、測驗內容與操作結果
